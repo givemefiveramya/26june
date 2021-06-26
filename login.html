@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<style>
+body{
+    color: blue;
+    background-color:peachpuff ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+.green{
+    color: green;
+}
+
+nav ul{
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    padding: 1%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+footer{
+    font-size: small;
+    color: black;
+}
+button{
+    background-color:teal;
+    color: white;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: coral;
+    color: black;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./aboutme.html">About Me</a></li>
+                <li><a href="./myschool.html">My school</a></li>
+                <li><a href="./myrecipe.html">My Recipe</a></li>
+                <li><a href="./ourplanets.html">Our Planets</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+<h1>Login Page</h1>
+
+<form>
+    <label for="username">Username:
+        <input type="text" id="username" name="username" required>
+    </label>
+    <br><br>
+    <label for="password">Password:
+        <input type="password" id="password" name="password" required>
+    </label>
+    <br><br>
+
+    <p>Yet to be Registered? <a href="./register.html">Register Here</a></p>
+
+    <button type="submit" id="submit" name="submit"><a href="./loginsuccess.html">Login</a></button>
+
+    <button type="reset" id="reset" name="reset">Reset</button>
+
+
+
+
+
+
+</form>
+<br><br><br><br><br><br>
+<footer>
+    All rights Reserved©2021<br>
+    Ramya Technologies Pvt Ltd
+</footer>
+</body>
+</html>
