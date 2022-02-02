@@ -1,91 +1,248 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>About Me!!!</title>
-<style>
-    *{
-        margin-top: 0;
-    }
-body{
-    color: blue;
-    background-color:peachpuff ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    text-align: center;
-    border: 4px dashed brown
-}
-.green{
-    color: green;
-    text-align: left;
-}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duonut - Authoring app to create, share, market, & track your content in 3 steps.</title>
+    <meta name="description" content="Authoring app to create, share, market, & track your content in 3 steps.">
+    <link rel="stylesheet" href="style.css?v=2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta2/css/all.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-header">
+        <div class="nav-title">Duonut</div>
+      </div>
 
-.red{
-    color: red;
-    text-align: center;
-}
-
-.blue{
-    color: blue;
-    text-align: right;
-}
-
-nav ul{
-    background-color: brown;
-    color: white;
-    border: 2px solid white;
-    padding: 1%;
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color:white
-}
-footer{
-    font-size: small;
-    color: black;
-}
-img{
-    border: 4px solid gold;
-}
-</style>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./aboutme.html">About Me</a></li>
-                <li><a href="./myschool.html">My school</a></li>
-                <li><a href="./myrecipe.html">My Recipe</a></li>
-                <li><a href="./ourplanets.html">Our Planets</a></li>
-                <li><a href="./register.html">Register</a></li>
-                <li><a href="./login.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-        <h1>About Me</h1>
-    <div class="green">
-        <p>Ramya Technologies Pvt Ltd</p>
-        <img src="../static/ramya.jpg" alt="my image" width="40%" height="40%">
+      <div class="nav-links">
+        <ul>
+          <li><a href="/login">Sign in</a></li>
+          <li><a href="/publisher">Create</a></li>
+          <li class="hamburger"><a style="padding: 0;"><span></span><span></span><span></span></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="sidenav">
+      <div class="close">
+        <i class="fa-thin fa-circle-xmark"></i>
+      </div>
+      <ul style="color: #fff; text-decoration: none;">
+      <li><a href="/login">Sign in</a></li>
+      <li><a href="/publisher">Create</a></li>
+    </ul>
     </div>
-    <div class="red">
-        <p>Ramya Technologies Pvt Ltd</p>
-        <img src="/PROJECT/static/ramya.jpg" alt="">
+    <div class="page">
+      <!-- <div id="windowWidthBtn" style="width: 100px; height: 50px; border: 1px solid #fff; font-size: medium;">Window width</div> -->
+      <div class="home-page-title" style="padding: 12px;">
+        <h1>A one-stop platform to launch your</h1>
+        <div class="slide-text-up">
+          <h1 style="color: #857aff" id="one">quizzes</h1>
+        </div>
+        <h4 class="title-under-text">
+          Authoring app to create, share, market, & track your content in 3
+          steps.
+        </h4>
+      </div>
+      <a href="#top" style="text-decoration: none;">
+        <button class="explore-btn" style="cursor: pointer;">Explore</button>
+      </a>
+      
+        <img src="home-page-image.svg" class="home-page-image" style="float: right; position: absolute; top: -100px; right: 0; transform: scale(0.5);" >
+      
+
+      
+
+      <div class="grid grid-left" id="top">
+        <img src="first-grid-img.svg" style="float: right; transform: scale(0.5);" class="delAdvImage">
+        <div style="/* width: 500px; */">
+
+          <h1>Make every entrepreneur come online & do business</h1>
+
+          <img src="first-grid-img.svg" width="322px" height="321px"  class="AdvImage" >
+          
+
+          <p>Instantly launch your marketing messages, engaging educational content or games by choosing from wide range of beautifully designed templates.
+            <br><br>
+            Duonut brings everything you need under one platform, so you can focus on your content and users.
+            </p>
+
+
+        </div>
+      </div>
+
+      <div class="grid grid-right">
+        <div style="/* width: 550px; */">
+          <h1>Marketing / sales / landing page in 2 mins!</h1>
+          <img src="second-grid-img.svg" width="322px" height="321px"  class="AdvImage">
+          <p>Starting your online business & wondering where to start from? Use our no-code templates & start to sell instantly!
+            <br><br>
+            Link your WhatsApp/Telegram/phone numbers to your page & publish on the double.
+            </p>
+        </div>
+        <img src="second-grid-img.svg" style="float: right; transform: scale(0.5);" class="delAdvImage">
+      </div>
+
+      <div class="grid grid-left">
+        <img src="third-grid-img.svg" style="float: right; transform: scale(0.5);" class="delAdvImage">
+        <div style="/* width: 550px; */">
+          <h1>Create games & activities like a pro!</h1>
+          <img src="third-grid-img.svg"  width="322px" height="321px"  class="AdvImage">
+          <p>Use our wide variety of game templates and customise your text & video content for your students. Your game/activity will be ready within 5 minutes.
+            <br><br>
+            Play with layouts, themes and colours and engage your students like never before!            
+            </p>
+        </div>
+      </div>
+
+      <div class="grid grid-right">
+        <div style="/* width: 550px; */">
+          <h1>Create in your own language</h1>
+
+          <img src="fourth-grid-img.svg" width="322px" height="321px"  class="AdvImage">
+
+          <p>Duonut's templates are available in all vernacular languages so that you can talk to your customers in their own language.         
+            </p>
+        </div>
+        <img src="fourth-grid-img.svg" style="float: right; transform: scale(0.5);" class="delAdvImage">
+      
+      </div>
+
+      <div class="grid grid-left">
+        <img src="fifth-grid-img.svg" style="float: right; transform: scale(0.5);" class="delAdvImage">
+        <div style="/* width: 550px; */">
+          <h1>Share everywhere, embed anywhere</h1>
+          <img src="fifth-grid-img.svg" width="322px" height="321px"  class="AdvImage">
+          <p>Once your templates are published, you can share them with anyone on social media, WhatsApp, or Telegram, or you can embed them on any website you like!
+            <br><br>
+            You can also link these templates to any video and add them as in-video activities!
+            </p>
+        </div>
+      </div>
+            
+      <div class="grid grid-right lastGrid">
+        <div style="/* width: 550px; */">
+          <h1>Create once, publish for all devices</h1>
+          <img src="sixth-grid-img.svg" width="322px" height="321px"  class="AdvImage">
+          <p>Duonut templates are completely responsive and can be accessed from any device.
+            <br><br>
+            Share templates easily as links, which can be instantly accessed.
+            </p>
+        </div>
+        <img src="sixth-grid-img.svg" style="float: right; transform: scale(0.5);" class="delAdvImage">
+      </div>
+
+
+
+      <div class="large-feature-grid-box">
+        <h3>Features</h3>
+      <div class="feature-grid">
+        <div class="feature-grid-item">
+          <div class="rounded-box">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.25" height="25.5" viewBox="0 0 20.25 25.5">
+              <defs>
+                <clipPath id="clip-path">
+                  <path id="Path_5" data-name="Path 5" d="M120.875,44.188h20.25v25.5h-20.25Zm0,0" fill="#efe709"/>
+                </clipPath>
+              </defs>
+              <g id="Group_1" data-name="Group 1" transform="translate(-120.875 -44.188)" clip-path="url(#clip-path)">
+                <path id="Path_4" data-name="Path 4" d="M126.758,55.973H123.5a.326.326,0,1,1,0-.652h3.262a.326.326,0,1,1,0,.652Zm-3.59-2.609a.31.31,0,0,1,.328-.328h5.871a.326.326,0,1,1,0,.652H123.5A.311.311,0,0,1,123.168,53.363Zm0-2.289a.309.309,0,0,1,.328-.324h8.156a.326.326,0,1,1,0,.652H123.5A.312.312,0,0,1,123.168,51.074Zm13.707,15.348h-2.613V55.648h2.613ZM131,61.523V59.238h2.609v7.184H131Zm-3.262,2.613V61.852h2.609v4.57h-2.609Zm-3.266.324h2.613v1.961h-2.613ZM137.2,54.992h-3.262a.312.312,0,0,0-.328.328v3.266h-2.934a.307.307,0,0,0-.328.324V61.2H127.41a.306.306,0,0,0-.324.324v2.285h-2.937a.312.312,0,0,0-.328.328V66.75a.311.311,0,0,0,.328.324H137.2a.311.311,0,0,0,.328-.324V55.32A.312.312,0,0,0,137.2,54.992Zm2.938,14.043H121.863a.309.309,0,0,1-.324-.328V45.2a.309.309,0,0,1,.324-.328h12.074v6.2a.309.309,0,0,0,.324.328h6.2v17.3A.312.312,0,0,1,140.137,69.035ZM140,50.75H134.59V45.328Zm1.113.293a.111.111,0,0,0-.035-.1v-.031c0-.035-.031-.066-.066-.1l-6.523-6.531c-.035-.035-.066-.066-.1-.066h-.031a.131.131,0,0,1-.1-.031h-12.4a.958.958,0,0,0-.977.977V68.707a.961.961,0,0,0,.977.98h18.273a.964.964,0,0,0,.98-.98V51.043h0" fill="#efe709"/>
+              </g>
+            </svg>                       
+          </div>
+          <div class="feature-grid-item-label">
+            <h4>Reports</h4>
+            <p>Get to know your user feedback instantly, monitor engagement & tweak accordingly.</p>
+          </div>
+        </div>
+        <div class="feature-grid-item">
+          <div class="rounded-box">
+            <img src="single-page-templates.svg">
+          </div>
+          <div class="feature-grid-item-label">
+            <h4>Single Page Templates</h4>
+            <p>Instantly create one-page marketing pages with custom buttons & publish in the blink of an eye.</p>
+          </div>
+        </div>
+        <div class="feature-grid-item">
+          <div class="rounded-box">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.5" height="25.5" viewBox="0 0 19.5 25.5">
+              <defs>
+                <clipPath id="clip-path">
+                  <path id="Path_5" data-name="Path 5" d="M710.363,46.211h19.5v25.5h-19.5Zm0,0"/>
+                </clipPath>
+              </defs>
+              <g id="Group_2" data-name="Group 2" transform="translate(-710.363 -46.211)">
+                <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+                  <path id="Path_4" data-name="Path 4" d="M730.965,42.07h-13.73a2.651,2.651,0,0,0-2.594,2.191,2.669,2.669,0,0,0-2.113,2.145,2.667,2.667,0,0,0-2.16,2.629V69.391a2.663,2.663,0,0,0,2.641,2.68h13.73a2.651,2.651,0,0,0,2.594-2.191,2.669,2.669,0,0,0,2.113-2.145,2.667,2.667,0,0,0,2.16-2.629V44.75A2.663,2.663,0,0,0,730.965,42.07Zm-2.641,27.32A1.6,1.6,0,0,1,726.738,71h-13.73a1.6,1.6,0,0,1-1.582-1.609V49.035a1.6,1.6,0,0,1,1.582-1.609h13.73a1.6,1.6,0,0,1,1.586,1.609Zm2.113-2.141a1.607,1.607,0,0,1-1.059,1.508V49.035a2.663,2.663,0,0,0-2.641-2.68H713.633a1.586,1.586,0,0,1,1.488-1.07h13.73a1.6,1.6,0,0,1,1.586,1.605Zm2.113-2.145a1.6,1.6,0,0,1-1.059,1.508V46.891a2.66,2.66,0,0,0-2.641-2.676H715.746a1.584,1.584,0,0,1,1.488-1.074h13.73a1.6,1.6,0,0,1,1.586,1.609Zm0,0" fill="#f9d300"/>
+                </g>
+                <path id="Path_6" data-name="Path 6" d="M725.684,49.035a1.6,1.6,0,0,0-1.426,2.293l-1.8,1.828a1.54,1.54,0,0,0-1-.371,1.566,1.566,0,0,0-1.074.434l-1.652-1a1.638,1.638,0,0,0,.086-.5,1.584,1.584,0,1,0-2.969.762l-1.527,1.941a1.4,1.4,0,0,0-.254-.027,1.618,1.618,0,1,0,1.188.559l1.379-1.75a1.539,1.539,0,0,0,1.445-.133l1.816,1.105a2.068,2.068,0,0,0-.02.219,1.584,1.584,0,1,0,3.168,0,1.72,1.72,0,0,0-.027-.285L725,52.09a1.582,1.582,0,0,0,.68.16,1.608,1.608,0,0,0,0-3.215Zm-11.617,7.5a.535.535,0,1,1,.527-.535A.535.535,0,0,1,714.066,56.535Zm2.641-4.82a.527.527,0,1,1,.527.535A.533.533,0,0,1,716.707,51.715Zm4.75,3.211a.535.535,0,1,1,.531-.535A.532.532,0,0,1,721.457,54.926Zm4.227-3.75a.535.535,0,1,1,.527-.535A.529.529,0,0,1,725.684,51.176Zm0,0" fill="#f9d300"/>
+                <path id="Path_7" data-name="Path 7" d="M713.535,58.676h12.676V59.75H713.535Zm0,0" fill="#f9d300"/>
+                <path id="Path_8" data-name="Path 8" d="M713.535,60.82h12.676v1.07H713.535Zm0,0" fill="#f9d300"/>
+                <path id="Path_9" data-name="Path 9" d="M716.176,62.965a3.213,3.213,0,1,0,3.172,3.211A3.194,3.194,0,0,0,716.176,62.965Zm2.113,3.211a2.172,2.172,0,0,1-.16.816l-1.422-1.082v-1.8A2.137,2.137,0,0,1,718.289,66.176Zm-2.641-2.066v1.531h-1.508A2.123,2.123,0,0,1,715.648,64.109Zm-1.508,2.605H716l1.488,1.129a2.078,2.078,0,0,1-1.312.477A2.111,2.111,0,0,1,714.141,66.715Zm0,0" fill="#f9d300"/>
+                <path id="Path_10" data-name="Path 10" d="M720.4,63.5h5.809v1.07H720.4Zm0,0" fill="#f9d300"/>
+                <path id="Path_11" data-name="Path 11" d="M720.4,65.641h5.809v1.074H720.4Zm0,0" fill="#f9d300"/>
+                <path id="Path_12" data-name="Path 12" d="M720.4,67.785h5.809v1.07H720.4Zm0,0" fill="#f9d300"/>
+              </g>
+            </svg>            
+          </div>
+          <div class="feature-grid-item-label">
+            <h4>Analytics Templates</h4>
+            <p>Choose from a variety of analytics templates, and mix & match them - correct & incorrect answer, marks obtained & more.</p>
+          </div>
+        </div>
+        <div class="feature-grid-item">
+          <div class="rounded-box">
+            <img src="linkvideos.svg">
+          </div>
+          <div class="feature-grid-item-label">
+            <h4>Link videos</h4>
+            <p>Link your Duonut templates easily to any video. In-video activities are ready!</p>
+          </div>
+        </div>
+        <div class="feature-grid-item">
+          <div class="rounded-box">
+            <img src="business-page.svg">                 
+          </div>
+          <div class="feature-grid-item-label">
+            <h4>Business page</h4>
+            <p>Add your courses, text or video content, quizzes & more. Design the entire course path easily.</p>
+          </div>
+        </div>
+        <div class="feature-grid-item">
+          <div class="rounded-box">
+            <img src="privacy.svg">                 
+          </div>
+          <div class="feature-grid-item-label">
+            <h4>Privacy</h4>
+            <p>Link duonut templates easily  to your existing or new videos. In-video activities are ready!</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div style="text-align: center; font-size: 18px; width: calc(100% - 40px); margin-top: 10vh; margin-bottom: 20vh;">
+        Copyright © 2022 Duonut
+      </div>
     </div>
-    <div class="blue">
-        <p>Ramya Technologies Pvt Ltd</p>
-    </div>
-  <br>
-    <br>
-<footer>
-    All rights Reserved©2021<br>
-    Ramya Technologies Pvt Ltd
-</footer>
-</body>
+  </body>
+  <script src="app.js?v=1" defer></script>
 </html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.672" height="21.75" viewBox="0 0 24.672 21.75">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_8" data-name="Path 8" d="M448.328,210H473v17.484H448.328Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_10" data-name="Path 10" d="M448.328,216H456v2h-7.672Zm0,0"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_14" data-name="Path 14" d="M456,205.734h10V211H456Zm0,0"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-448.328 -205.734)">
+    <g id="Group_2" data-name="Group 2" clip-path="url(#clip-path)">
+      <path id="Path_7" data-name="Path 7" d="M472.387,226.313H448.875c.168.168.34.34.508.512V210.793c-.168.172-.34.344-.508.512h23.512c-.168-.168-.34-.34-.508-.512v16.031a.508.508,0,0,0,1.016,0V210.793a.515.515,0,0,0-.508-.512H448.875a.519.519,0,0,0-.512.512v16.031a.519.519,0,0,0,.512.512h23.512A.512.512,0,0,0,472.387,226.313Zm0,0" fill="#ffc21c"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path-2)">
+      <path id="Path_9" data-name="Path 9" d="M455.266,216.676h-6.152c-.176,0-.176,1.023,0,1.023h6.152C455.441,217.7,455.441,216.676,455.266,216.676Zm0,0" fill="#ffc21c"/>
+    </g>
+    <path id="Path_11" data-name="Path 11" d="M457.316,219.922H454.59v-4.887h2.727Zm-1.641-1.09h.555v-2.707h-.555Zm0,0" fill="#ffc21c"/>
+    <path id="Path_12" data-name="Path 12" d="M466.82,219.922h-2.727v-4.887h2.727Zm-1.641-1.09h.555v-2.707h-.555Zm0,0" fill="#ffc21c"/>
+    <g id="Group_4" data-name="Group 4" clip-path="url(#clip-path-3)">
+      <path id="Path_13" data-name="Path 13" d="M457.113,210.453v-4.207c-.172.172-.34.344-.512.512h8.035c-.172-.168-.34-.34-.512-.512v4.207a.51.51,0,0,0,1.02,0v-4.207a.515.515,0,0,0-.508-.512H456.6a.515.515,0,0,0-.508.512v4.207A.51.51,0,0,0,457.113,210.453Zm0,0" fill="#ffc21c"/>
+    </g>
+    <path id="Path_15" data-name="Path 15" d="M464.715,216.676h-7.758c-.227,0-.227,1.023,0,1.023h7.758C464.938,217.7,464.938,216.676,464.715,216.676Zm0,0" fill="#ffc21c"/>
+    <path id="Path_16" data-name="Path 16" d="M472.559,216.676h-6.133c-.176,0-.176,1.023,0,1.023h6.133C472.734,217.7,472.734,216.676,472.559,216.676Zm0,0" fill="#ffc21c"/>
+  </g>
+</svg>
